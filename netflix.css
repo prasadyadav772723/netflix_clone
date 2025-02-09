@@ -1,0 +1,351 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+background-color: black;
+color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.menu>img{
+    height: 75px;
+    width: 150px;
+}
+.menu>button{
+    background-color: red;
+    color: white;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+
+}
+.parent1{
+    text-align: center;
+}
+.parent1>h1{
+    font-size: 50px;
+}
+.parent1>p{
+    font-size: 20px;
+}
+.p1-c1{
+    width: 500px;
+    margin-left: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.p1-c1>input{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    border: 1px solid whitesmoke;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+}
+.p1-c1>button{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid red;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.parent2{
+    margin: 0px 40px;
+    padding: 40px;
+}
+.p2-c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.p2-c1>img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.parent3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.parent3>div{
+    width: 250px;
+    height: 300px;
+    background-color: #1A2143;
+    padding: 10px;
+    
+}
+
+.parent4>div{
+    background-color: #2D2D2D;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 5px;
+    margin: 20px 120px;
+    border-radius: 10px;
+}
+.parent4>.box>i{
+    font-size: 40px;
+}
+.parent5{
+    text-align: center;
+}
+.p5-c1{
+    width: 500px;
+    margin-left: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.p5-c1>button{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid red;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.p5-c1>input{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    border: 1px solid whitesmoke;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+.parent6{
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.parent6>div{
+    height: 150px;
+    padding: 5px;
+    align-items: center;
+
+}
+.p6-text>a{
+    color: white;
+    width: 100px ;
+}
+body>button{
+    margin: 20px;
+    background-color: #0F0F0F;
+    color: antiquewhite;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border: #0F0F0F;
+}
+body>h4{
+    margin: 20px;
+}
+@media(max-width:576px){
+    body{
+        width: auto;
+        margin: auto;
+    }
+    .menu{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu>img{
+        height: 75px;
+        width: 150px;
+    }
+    .menu>button{
+        background-color: red;
+        color: white;
+        width: 90px;
+        height: 30px;
+        text-align: center;
+        border: 2px solid red;
+        border-radius: 10px;
+    
+    }
+    .menu>img{
+        height: 50px;
+        width: 80px;
+    }
+    .menu>button{
+        background-color: red;
+        color: white;
+        width: 70px;
+        height: 30px;
+        text-align: center;
+        border: 2px solid red;
+        border-radius: 15px;
+    
+    }
+    .parent1{
+        text-align: center;
+    }
+    .parent1>h1{
+        font-size: 35px;
+    }
+    .parent1>p{
+        font-size: 15px;
+    }
+    .p1-c1{
+        width: auto;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+    .p1-c1>input{
+        background-color: rgb(54, 53, 53);
+        color: white;
+        border: 1px solid whitesmoke;
+        width: 290px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .p1-c1>button{
+        background-color: red;
+        color: white;
+        width: 100px;
+        height: 45px;
+        text-align: center;
+        border: 2px solid red;
+        margin-left: 10px;
+        border-radius: 10px;
+    
+    }
+    .parent2{
+        margin: 0px 30px;
+        padding: 30px;
+        
+    }
+    .p2-c1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        border-radius: 20px;
+    }
+    .p2-c1>img{
+        margin-bottom: 20px;
+        border-radius: 20px;
+        width: 200px;
+        height: 300px;
+    }
+    .parent3{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    .parent3>div{
+        width: 200px;
+        height: 200px;
+        background-color: #1A2143;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .parent3>div>h1{
+        font-size: 15px;
+    }
+    .parent3>div>p{
+        font-size: 10px;
+    }
+    .parent4>div{
+        background-color: #2D2D2D;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 15px;
+        margin-top: 5px;
+        margin: 20px 50px;
+        border-radius: 10px;
+    }
+    .parent4>.box>i{
+        font-size: 20px;
+    }
+    .parent4>.box>h2{
+        font-size: 15px;
+    }
+    .parent5>p{
+        font-size: 15px;
+    }
+    .p5-c1{
+        width: 300px;
+        margin:auto;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .p5-c1>button{
+        background-color: red;
+        color: white;
+        width: 150px;
+        height: 45px;
+        text-align: center;
+        border: 2px solid red;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    .p5-c1>input{
+        background-color: rgb(54, 53, 53);
+        color: white;
+        border: 1px solid whitesmoke;
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    body>h3{
+        font-size: 15px;
+    }
+    .parent6{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .parent6>div{
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+        align-items: center;
+
+    
+    }
+    .p6-text>a{
+        color: white;
+        width: 100px ;
+        font-size: 13px;
+    }
+    body>button{
+        margin-top: 150px;
+    }
+    body>h4{
+        font-size: 10px;
+    }
+    
+}
