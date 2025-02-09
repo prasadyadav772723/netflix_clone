@@ -13,15 +13,27 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     height: 75px;
     width: 150px;
 }
-.menu>button{
+.top{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hm-btn2{
     background-color: red;
     color: white;
     width: 90px;
     height: 30px;
     text-align: center;
-    border: 2px solid red;
+    border: 2px solid #ff0000;
     border-radius: 10px;
-
+}
+.hm-btn{
+    background-color: #2D2D2D;
+    color: white;
+    border: 1px solid #2D2D2D;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 .parent1{
     text-align: center;
